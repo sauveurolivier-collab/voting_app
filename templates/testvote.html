@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vote Président BDE - CPS</title>
+  <link rel="stylesheet" href="testvote.css" />
+</head>
+<body>
+
+  <div class="accueil">
+    <h1>Élection du Président du BDE - CPS</h1>
+
+    <form id="voteForm">
+      <div class="candidats">
+        
+        <!-- CANDIDAT 1 -->
+        <label class="carte">
+          <input type="radio" name="president" value="alpha" required>
+          <div class="contenu-carte">
+            <img src="images/alpha.jpg" alt="alpha" />
+            <h2>alpha</h2>
+          </div>
+        </label>
+
+        <!-- CANDIDAT 2 -->
+        <label class="carte">
+          <input type="radio" name="president" value="olivier">
+          <div class="contenu-carte">
+            <img src="images/olivier.jpg" alt="olivier" />
+            <h2>olivier</h2>
+          </div>
+        </label>
+
+      </div>
+
+      <button type="submit">Voter</button>
+    </form>
+  </div>
+
+   
+</body>
+</html>
